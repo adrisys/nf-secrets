@@ -1,6 +1,6 @@
 nextflow.enable.dsl=2
 
-params.email = 'paolo.ditommaso@gmail.com'
+params.email = 'adrian.navarro@outlook.com'
 
 process someTask {
   secret 'FOO'
