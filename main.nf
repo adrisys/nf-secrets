@@ -5,11 +5,12 @@ params.email = 'adrian.navarro@outlook.com'
 process someTask {
   secret 'FOO'
   secret 'BAR'
+  secret 'testsecret'
   output: 
      stdout 
   script:
   '''
-    echo "Secrets phrase: $FOO $BAR"
+    echo "Secrets phrase: $FOO $BAR $testsecret"
   '''
 }
 
